@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/e0f661c42f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <h2>Hotel <span> N</span>ivada</h2>
+        <i class="fa-solid fa-caret-down"></i>
+        <ul id="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Booking</a></li>
+        </ul>
+      </nav>
+      <div class="text-header">
+        <h1>There's no place like home, except for a great hotel.</h1>
+
+        <iframe
+          width="500"
+          height="400"
+          src="https://www.youtube.com/embed/7WkT4SmrzwE?autoplay=1&mute=1&playlist=7WkT4SmrzwE&loop=1"
+        >
+        </iframe>
+      </div>
+      <div class="arrival">
+        <label for="arr"
+          >Arrival Date
+          <input type="date" id="arr" />
+        </label>
+
+        <label for="dep">Departue Date <input type="date" id="dep" /></label>
+        <label for="nb">Number of Persons<input type="number" id="nb" /></label>
+      </div>
+    </div>
+    <section class="services">
+      <h2 class="title">Our Services</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper swiper-content">
+          <div class="swiper-slide slide-1">
+            <img src="./images/car.png" />
+            <h4>Car rental</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/drying-machine.png" />
+            <h4>Laundry and Dry-cleaner</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/sauna.png" />
+            <h4>Bath, Sauna</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/dumbbell.png" />
+            <h4>gym and playgrounds</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/doctor.png" />
+            <h4>24-Hour doctor on call</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/map.png" />
+            <h4>City map</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+          <div class="swiper-slide slide-1">
+            <img src="./images/swimming-pool.png" />
+            <h4>Swimming pool</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about">
+        <div class="about-img">
+          <div class="square"></div>
+          <img src="./images/about.jpg" />
+        </div>
+
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <br /><br />
+            Natus ad a hic ipsa voluptatem, labore vel vero explicabo aspernatur
+            mollitia molestiae eum excepturi maxime aut ipsum sint omnis error
+            quam!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="rooms">
+      <h2 class="title">Our Rooms</h2>
+      <div class="swiper swiper1">
+        <div class="swiper-wrapper swiper-container">
+          <div class="swiper-slide slide2">
+            <img src="./images/room1.jpg" />
+            <div class="layer">
+              <h4>Single room</h4>
+              <p>Started from 300$</p>
+            </div>
+          </div>
+          <div class="swiper-slide slide2">
+            <img src="./images/room2.jpg" />
+            <div class="layer">
+              <h4>Double room</h4>
+              <p>Started from 400$</p>
+            </div>
+          </div>
+          <div class="swiper-slide slide2">
+            <img src="./images/room3.jpg" />
+            <div class="layer">
+              <h4>King room</h4>
+              <p>Started from 600$</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide2">
+            <img src="./images/room5.jpg" />
+            <div class="layer">
+              <h4>Luxury room</h4>
+              <p>Started from 900$</p>
+            </div>
+          </div>
+          <div class="swiper-slide slide2">
+            <img src="./images/room6.jpg" />
+            <div class="layer">
+              <h4>Suite</h4>
+              <p>Started from 1000$</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!--Gallery-->
+    <section class="gallery">
+      <h2 class="title">Gallery</h2>
+      <div class="row">
+        <div class="col">
+          <img src="./images/gallery1.jpg" />
+        </div>
+        <div class="col">
+          <img src="./images/gallery2.jpg" />
+        </div>
+        <div class="col">
+          <img src="./images/gallery4.jpg" />
+        </div>
+        <div class="col">
+          <img src="./images/gallery3.jpg" />
+        </div>
+        <div class="col">
+          <img src="./images/gallery5.jpg" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row-f">
+        <div class="col-f">
+          <h5>Home</h5>
+          <ul>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-f">
+          <h5>Services</h5>
+          <ul>
+            <li>Swimming</li>
+            <li>City tour</li>
+            <li>Hire a chauffeur</li>
+          </ul>
+        </div>
+        <div class="col-f">
+          <h5>Contact Us</h5>
+          <ul>
+            <li>Horst-Zander-Ring 5b, Berlin</li>
+            <li>+49(0) 722787561</li>
+            <li>patricia.erdmann@example.com</li>
+          </ul>
+        </div>
+      </div>
+      <p>Made By Houda Brz<i class="fa-solid fa-star"></i></p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    var icon = document.querySelector(".fa-caret-down");
+    var menu = document.getElementById("menu");
+    icon.addEventListener("click", () => {
+      if (menu.style.height === "250px") {
+        menu.style.height = "0";
+      } else {
+        menu.style.height = "250px";
+      }
+    });
+  </script>
+</html>
